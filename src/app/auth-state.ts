@@ -40,13 +40,13 @@ export class AuthState {
   ) {
     return this.authService.signin(email, password).pipe(
       tap(result => {
-        console.log(
+        
           patchState({
             token: result.token,
             name: result.name,
             email: result.email
-          })
-        );
+          });
+        
       })
     );
   }
