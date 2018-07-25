@@ -1,27 +1,11 @@
 # NgxsAuthenticationDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+To test this demo, first install the packages using your favorite package manager:
 
-## Development server
+`yarn install or npm install`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+And then run the angular application:
 
-## Code scaffolding
+`ng s --aot`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This is a demo repo that demostrates how you can use NGXS for authentication in your Angular Application. To explanation for this repo can be location in accompanying article [here](https://github.com/angular/angular-cli).
